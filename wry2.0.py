@@ -1,7 +1,6 @@
 import requests
 r = requests.get("https://blox-fruits.fandom.com/wiki/Codes").text.split("</tbody>")[1]
-print(r)
-print("wryy")
+
 w = 1
 a = 0
 #r.split("<td><b>")[1].split("</b>")[0]
